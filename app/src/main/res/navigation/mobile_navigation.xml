@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="hu.andras.mobilbeadando.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_income"
+        android:name="hu.andras.mobilbeadando.ui.income.IncomeFragment"
+        android:label="@string/menu_income"
+        tools:layout="@layout/fragment_income">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_income_edit"
+        android:name="hu.andras.mobilbeadando.ui.incomeedit.IncomeEditFragment"
+        android:label="@string/menu_income_edit"
+        tools:layout="@layout/fragment_income_edit">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_expense"
+        android:name="hu.andras.mobilbeadando.ui.expense.ExpenseFragment"
+        android:label="@string/menu_expense"
+        tools:layout="@layout/fragment_expense">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_expense_edit"
+        android:name="hu.andras.mobilbeadando.ui.expenseedit.ExpenseEditFragment"
+        android:label="@string/menu_expense_edit"
+        tools:layout="@layout/fragment_expense_edit">
+    </fragment>
+</navigation>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="income"
+            type="hu.andras.mobilbeadando.database.Income" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/income_id"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:incomeIdFormatted="@{income}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Kulcs: 0" />
+
+        <TextView
+            android:id="@+id/income_date"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:incomeDateFormatted="@{income}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="2020-12-05 16:23" />
+
+        <TextView
+            android:id="@+id/income_amount"
+            android:layout_width="230dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:incomeAmountFormatted="@{income}"
+            app:layout_constraintStart_toEndOf="@+id/income_id"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Összeg: 0" />
+
+        <TextView
+            android:id="@+id/income_desc"
+            android:layout_width="230dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:incomeDescFormatted="@{income}"
+            app:layout_constraintStart_toEndOf="@+id/income_date"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Banana" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

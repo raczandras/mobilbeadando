@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Mobilbeadando</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Kezdőkép</string>
+    <string name="menu_income">Bevételek</string>
+    <string name="menu_expense">Kiadások</string>
+    <string name="menu_summary">Összesítés</string>
+    <string name="amount_hint">Összeg</string>
+    <string name="desc_hint">Leírás</string>
+    <string name="button_add">Hozzáad</string>
+    <string name="key">Kulcs</string>
+
+    <string name="added">Elem hozzáadva</string>
+    <string name="deleted">Elem törölve</string>
+    <string name="all_deleted">Minden elem törölve</string>
+    <string name="updated">Elem frissítve</string>
+    <string name="wrong">Üresen hagytad az egyik mezőt!</string>
+
+    <string name="income_title"><![CDATA[<h3>Bevételek</h3>]]></string>
+    <string name="expense_title"><![CDATA[<h3>Kiadások</h3>]]></string>
+    <string name="id"><![CDATA[<b>Kulcs: </b>]]></string>
+    <string name="amount"><![CDATA[<b>Összeg: </b>]]></string>
+    <string name="description"><![CDATA[<b>Leírás: </b>]]></string>
+    <string name="date"><![CDATA[<b>Dátum: </b>]]></string>
+    <string name="balance">Egyenleg:</string>
+    <string name="income_amount">Bevétel:</string>
+    <string name="expense_amount">Kiadás: </string>
+    <string name="income_header_text">Bevételek</string>
+    <string name="expense_header_text">Kiadások</string>
+    <string name="menu_income_edit">Bevételkezelés</string>
+    <string name="menu_expense_edit">Kiadáskezelés</string>
+    <string name="update">Módosítás</string>
+    <string name="delete">Törlés</string>
+    <string name="deleteall">Összes törlése</string>
+    <string name="id_hint">Kulcs</string>
+    <string name="new_amount_hint">Új Összeg</string>
+    <string name="new_desc_hint">Új Leírás</string>
+    <string name="deletedallexpenses">Minden kiadás törölve!</string>
+    <string name="deletedexpense">Kiadás törölve</string>
+    <string name="unknownid">Nem létező kulcs</string>
+    <string name="updatedexpense">Kiadás Frissítve</string>
+    <string name="deletedallincomes">Minden bevétel törölve!</string>
+    <string name="deletedincome">Bevétel törölve!</string>
+    <string name="updatedincome">Bevétel frissítve!</string>
+</resources>
